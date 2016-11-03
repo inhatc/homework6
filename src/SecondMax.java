@@ -13,7 +13,7 @@ public class SecondMax {
         for(int i=0; i<iArray.length; i++) {
             System.out.print((i+1)+"번째 숫자를 입력하세요 : ");
             iArray[i] = scData.nextInt();
-            for(int j=0; j<i; j++){
+            for(int j=0; j<=i; j++){
                 if(iArray[0]<iArray[j]){
                     max = iArray[j];
                     iArray[0]=max;
@@ -26,6 +26,6 @@ public class SecondMax {
                 temp=i;
             }
         }
-        System.out.println("두번째로 큰 수는"+temp+1+"번째수 "+max2+"입니다.");
+        System.out.println("두번째로 큰 수는"+(temp+1)+"번째수 "+max2+"입니다.");
     }
 }
