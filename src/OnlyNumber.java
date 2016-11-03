@@ -19,10 +19,12 @@ public class OnlyNumber {
             if(iArray[i]<0 || iArray[i]>100){
                 System.out.println("잘못 입력했습니다. 다시 입력하세요.");
                 this.count(count);
+                return;
             }
             else if(this.check(count)==false&&count>=1){
                 System.out.println("잘못 입력했습니다. 다시 입력하세요.");
                 this.count(count);
+                return;
             }
             else {
                 count++;

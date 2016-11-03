@@ -17,7 +17,7 @@ public class ExamVariousArray {
             System.out.println("4. 5층 아파트의 거주자 숫자 구하기");
             System.out.println("5. 겹치지 않는 숫자 10개입력받기");
             System.out.println("6. 종료하기");
-            System.out.println("원하는 메뉴는>>");
+            System.out.print("원하는 메뉴는>>");
             int menu = scData.nextInt();
             this.menuInfo(menu);
         }catch (Exception e){
