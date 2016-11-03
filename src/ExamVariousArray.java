@@ -27,8 +27,13 @@ public class ExamVariousArray {
 
     public void menuInfo(int menu){
         switch (menu){
-            case 1: new SecondMax();
-            case 2: new AvgScore();
+            case 1: new SecondMax(); this.start();
+            case 2: new AvgScore(); this.start();
+            case 3: new StudentScore(); this.start();
+            case 4: new AptPersonCount(); this.start();
+            case 5: new OnlyNumber(); this.start();
+            case 6: return;
+            default: System.out.println("입력값을 확인하세요."); this.start();
         }
     }
 }
