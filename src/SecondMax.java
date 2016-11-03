@@ -27,6 +27,5 @@ public class SecondMax {
             }
         }
         System.out.println("두번째로 큰 수는"+temp+1+"번째수 "+max2+"입니다.");
-
     }
 }
